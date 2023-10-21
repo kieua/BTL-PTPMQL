@@ -6,7 +6,7 @@ namespace BTL.Models;
     public class KhachHang
     {
      [Key]
-    public int MaKH { get; set; }
+    public string MaKH { get; set; }
     public string TenKH { get; set; }
     public string DiaChi { get; set; }
     }
